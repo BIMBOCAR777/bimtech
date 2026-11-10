@@ -330,7 +330,7 @@
 « Chacun est responsable de ce qu'il fait. Les bons serveurs sont reconnus, tu peux même les récompenser. L'équipe devient plus sérieuse, et toi tu dors tranquille. »
 
 **APPEL À L'ACTION**
-« **Partage cette vidéo** à un gérant ou un patron qui vit cette situation. Et abonne-toi, parce que dans la prochaine vidéo je te raconte pourquoi j'ai créé BonApp. »
+« **Partage cette vidéo** à un gérant ou un patron qui vit cette situation. Et abonne-toi, parce que dans la prochaine vidéo, j'appelle mon tout premier restaurant… en direct. »
 
 **[PLAN]** : Trois serveurs qui se regardent → écran BonApp avec les ventes par serveur → toi face caméra.
 
@@ -338,37 +338,61 @@
 
 ---
 
-## SCRIPT 10 : « Pourquoi j'ai créé BonApp »
+## SCRIPT 10 : « J'appelle mon premier restaurant »
 
-**[ÉCRAN] : « Je suis développeur au Mali et je me lance un défi 🇲🇱🔥 »**
+> **Une vidéo filmée pour de vrai.** Tu te filmes avant, pendant et après ton premier appel ou ta première visite. On ne connaît pas encore la fin : c'est ce qui accroche les gens.
+>
+> ⚠️ **Avant de filmer l'appel, demande l'accord de la personne.** Sans son accord, coupe le son de sa voix ou résume ce qu'elle a dit. Ne montre ni le nom du restaurant ni le numéro sans permission.
 
-**ACCROCHE**
-« J'ai décidé de m'attaquer à un problème que tous les restaurants du Mali connaissent… et je vais tout te montrer, en direct. »
+**[ÉCRAN] : « J'appelle mon PREMIER restaurant… en direct 📞😰 »**
+
+**ACCROCHE (0 à 3 s)**
+*(Téléphone à la main, le doigt sur le bouton d'appel.)*
+« Je vais appeler mon tout premier restaurant. Je ne sais pas du tout ce qu'il va me répondre… »
 
 **PRÉSENTATION**
-« Je m'appelle BIM, je suis développeur, basé au Mali. »
+« Pour ceux qui arrivent : je m'appelle BIM, j'ai 21 ans, je suis développeur, basé à Bamako, au Mali. J'ai créé **BonApp**, une application pour aider les restaurants à gérer leurs commandes, leurs clients et tout leur restaurant depuis un téléphone. »
 
-**PROBLÈME / HISTOIRE**
-« Partout où je mange, je vois la même chose : des cahiers, des calculs à la main, des commandes oubliées, des patrons stressés qui ne savent pas combien ils gagnent. Les restaurants travaillent dur, mais ils n'ont pas les **outils** qu'il leur faut. »
-
-**RELANCE**
-« Alors je me suis posé une question : pourquoi ne pas construire cet outil ici, au Mali, pour nos réalités à nous ? »
-
-**SOLUTION**
-« C'est comme ça qu'est né **BonApp**. Une application pour prendre les commandes, les envoyer en cuisine, suivre la caisse et le stock, gérer l'équipe et voir son restaurant depuis son téléphone. Pensée pour nos maquis, nos grilladeries, nos restaurants. »
-
-**CE QUE ÇA CHANGE**
-« Mon objectif, c'est que chaque restaurateur au Mali puisse gérer son business comme un professionnel : moins de pertes, plus de clients satisfaits, plus de bénéfices. »
+**LE CONTEXTE**
+« Mon prototype fonctionne. Mais une application sans restaurant pour l'utiliser, ça ne sert à rien. Alors aujourd'hui, j'arrête de coder et je passe à l'action. »
 
 **RELANCE**
-« Et maintenant commence la partie la plus difficile : trouver mes premiers clients. »
+« J'ai le cœur qui bat… allez, j'appelle. »
+
+**L'APPEL (vraie scène)**
+*(On entend la sonnerie. Tu fais ton pitch, voir « Ce que tu dis au téléphone » plus bas.)*
+**[ÉCRAN]** pendant l'appel : « Il décroche 😳 », « Il pose une question… », « Silence… »
+
+**RELANCE**
+*(Coupe juste avant la réponse.)*
+« Et là… il me dit quelque chose que je n'attendais pas du tout. »
+
+**FIN A, s'il dit OUI ou « Passe me voir »**
+« Il m'a dit : passe demain. Mon premier rendez-vous ! Je vais lui montrer comment BonApp peut l'aider à ne plus perdre de commandes, à servir ses clients plus vite et à voir son restaurant depuis son téléphone. »
+
+**FIN B, s'il dit NON ou « Pas intéressé »**
+« Il m'a dit non. Ça fait mal, je ne vais pas mentir. Mais il m'a expliqué pourquoi : [sa vraie raison]. Et ça m'apprend beaucoup. Un non aujourd'hui, c'est une leçon pour le prochain appel. Je ne lâche rien. »
+
+**POURQUOI JE FAIS ÇA**
+« Si je fais tout ça, c'est parce que je sais que BonApp peut changer la vie d'un restaurant : moins de pertes, moins d'erreurs, un service plus rapide et un patron qui sait enfin ce qui se passe chez lui. »
 
 **APPEL À L'ACTION**
-« Je vais documenter **toute l'aventure** ici : les rendez-vous, les refus, les premiers restaurants qui disent oui. **Abonne-toi pour suivre mon aventure**. Si tu as un restaurant et que tu veux tester BonApp, écris-moi en commentaire. Et **republie cette vidéo** pour donner de la force à un développeur malien 🇲🇱 »
+« Tu veux savoir comment se passe le rendez-vous ? **Abonne-toi**, la suite arrive. Si tu as un restaurant à Bamako et que tu veux être parmi les premiers à tester BonApp, **écris "BonApp" en commentaire**. Et **republie cette vidéo** pour donner de la force à un jeune développeur malien 🇲🇱 »
 
-**[PLAN]** : Toi en train de coder → toi devant un restaurant → toi face caméra, déterminé.
+**[PLAN]** : Toi qui marches ou qui es assis, stressé → gros plan sur le téléphone qui sonne → ton visage pendant l'appel → réaction juste après avoir raccroché → face caméra pour la fin et l'appel à l'action.
 
-**Légende :** Jour 1 de l'aventure BonApp 🚀 Suis-moi jusqu'à mon premier client #developpeur #mali #startup #BonApp #entrepreneurafricain
+**Légende :** Premier appel à un restaurant… il m'a dit ça 😳 Partie 1 de mon aventure BonApp 🚀 #developpeur #mali #bamako #startup #BonApp #entrepreneur #premierclient
+
+### Ce que tu dis au téléphone (pitch de 30 secondes)
+
+« Bonjour, je m'appelle Bocar Ibrahim Touré, je suis développeur à Bamako. J'ai créé BonApp, une application qui aide les restaurants à gérer leurs commandes, leurs clients et leur caisse depuis un téléphone, et à remplacer les menus en papier par un menu digital. Je cherche quelques restaurants pour la tester **gratuitement** et me dire ce qu'ils en pensent. Est-ce que je peux passer vous la montrer, 10 minutes, au moment qui vous arrange ? »
+
+**Si on te demande « Ça coûte combien ? »** : « Pour les premiers restaurants, le test est gratuit. Je veux d'abord que l'application vous fasse gagner du temps et de l'argent. »
+**Si on te dit « On n'a pas le temps »** : « Je comprends, c'est justement pour vous en faire gagner. Quel jour est le plus calme pour vous ? Je m'adapte. »
+
+> 💡 **Le test gratuit est une proposition à décider par toi.** Si tu ne veux pas l'offrir, enlève-le du pitch.
+>
+> 💡 **Et après ?** Cette vidéo ouvre une série : « Partie 2 : le rendez-vous », « Partie 3 : il teste BonApp », « Partie 4 : son avis après une semaine ». Chaque partie fait revenir les gens pour la suite.
 
 ---
 
@@ -378,6 +402,6 @@
 2. **Change de plan toutes les 3 à 5 secondes** (zoom, autre angle, écran de l'application). Ça garde les gens jusqu'au bout.
 3. **Mets des sous-titres sur toute la vidéo.** Beaucoup de gens regardent sans le son.
 4. **Montre l'application à l'écran** au moment de la solution. Les gens croient ce qu'ils voient.
-5. **Finis en parlant de la prochaine vidéo** (scripts 2 et 9), pour que les gens aient envie de s'abonner.
+5. **Finis en parlant de la prochaine vidéo** (scripts 2, 9 et 10), pour que les gens aient envie de s'abonner.
 6. **Publie une vidéo par jour**, de préférence entre 12 h et 14 h ou entre 19 h et 22 h (heures de repas et de repos).
 7. **Réponds aux commentaires en vidéo** : chaque question d'un restaurateur peut devenir un nouveau script.

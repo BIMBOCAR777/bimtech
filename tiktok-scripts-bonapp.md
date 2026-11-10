@@ -20,39 +20,38 @@
 
 ## SCRIPT 0 : Présentation, « Qui je suis et pourquoi je m'attaque à la restauration » (à publier EN PREMIER)
 
-> Les passages entre **[crochets]** sont à remplacer par ta vraie histoire. Plus ils sont précis (un lieu, un chiffre, un moment), plus la vidéo sera crédible.
-
-**[ÉCRAN] : « Je suis développeur au Mali et j'ai choisi de m'attaquer aux restaurants. Voici pourquoi 🇲🇱 »**
+**[ÉCRAN] : « J'ai 21 ans, 0 client… et je veux digitaliser les restaurants du Mali 🇲🇱 »**
 
 **ACCROCHE (0 à 3 s)**
-« J'aurais pu créer une application pour n'importe quel secteur. J'ai choisi les restaurants. Et ce n'est pas un hasard. »
+« J'ai 21 ans, je n'ai encore aucun client… et je veux changer la façon dont on gère les restaurants au Mali. »
 
 **PRÉSENTATION**
-« Je m'appelle BIM, de mon vrai nom Bocar Ibrahim Touré. Je suis développeur, basé au Mali. Je crée des applications web et des outils pour aider les entreprises à mieux s'organiser. [J'ai appris à coder en/à …, depuis X ans.] »
-
-**LE DÉCLIC (l'histoire)**
-« Un jour, [j'étais dans un restaurant à … / j'aidais un proche qui tient un restaurant]. [Raconte la scène : la commande oubliée, le patron qui compte la caisse le soir avec un cahier, l'argent qui manque, le stock qui disparaît…] Et là, je me suis dit : "Ce n'est pas normal qu'en 2026, des gens qui travaillent aussi dur n'aient aucun outil pour les aider." »
+« Je m'appelle BIM, de mon vrai nom Bocar Ibrahim Touré. Je suis développeur, basé à Bamako, au Mali. J'ai appris à coder à l'école, puis tout seul, avec YouTube et des formations. Ça fait plus de trois ans que je code. Aujourd'hui je suis freelance, et je donne aussi des formations en présentiel. »
 
 **RELANCE**
-« Mais la vraie question, c'est : pourquoi la restauration, et pas un autre secteur ? J'ai trois raisons. »
+« Mais tout a vraiment commencé le jour où je suis entré dans un restaurant. »
+
+**LE DÉCLIC**
+« Je m'assois, et on me tend… un menu en papier. Usé, avec des prix barrés à la main. Et là je me dis : le monde entier passe au digital, on paie avec son téléphone, on commande en ligne… et chez nous, les restaurants travaillent encore comme avant. Les menus en papier, les commandes notées dans un cahier, la caisse comptée à la main. »
+
+**RELANCE**
+« Alors tu vas me demander : pourquoi les restaurants, et pas un autre secteur ? »
 
 **POURQUOI LA RESTAURATION**
-« **Un** : tout le monde mange, tous les jours. Il y a des restaurants, des maquis et des grilladeries dans chaque quartier, et il en ouvre de nouveaux tout le temps.
-**Deux** : c'est un secteur où l'argent circule chaque jour, mais où presque tout se gère encore à la main : cahiers, calculs de tête, confiance aveugle. Les pertes sont énormes, et personne ne les voit.
-**Trois** : [raison personnelle : un parent restaurateur, un ancien job dans un restaurant, ta passion pour la cuisine…]. »
-
-**RELANCE**
-« Alors j'ai arrêté de me plaindre, et j'ai commencé à construire. »
+« Parce que c'est là que j'ai vu le problème de mes propres yeux. Parce que tout le monde mange, tous les jours, et qu'il y a des restaurants dans chaque quartier de Bamako. Et parce que c'est un projet qui me tient vraiment à cœur. Les restaurants, c'est mon point de départ. Je veux d'abord régler ce problème ici, au Mali. »
 
 **LA MISSION**
-« C'est comme ça qu'est né **BonApp** : une application pensée **au Mali, pour les restaurants du Mali**. Pour que chaque patron sache ce qui se passe dans son restaurant, perde moins d'argent et serve mieux ses clients. [Aujourd'hui, j'en suis à : … (prototype, premiers tests, X restaurants contactés).] »
+« C'est comme ça qu'est né **BonApp**. Mon objectif : donner aux restaurants un **écosystème complet** pour gérer leurs clients, leurs commandes et tout leur restaurant, depuis un téléphone. Aujourd'hui, j'ai un **prototype qui fonctionne déjà**. Il faut encore l'améliorer, et c'est pour ça que j'ai besoin des restaurateurs. »
+
+**RELANCE**
+« Et maintenant commence le plus dur : trouver mon premier client. »
 
 **APPEL À L'ACTION**
-« Sur ce compte, je vais tout montrer : comment je construis l'application, comment je cherche mes premiers clients, les refus et les victoires. **Abonne-toi pour suivre l'aventure depuis le début.** Et si tu connais quelqu'un dans la restauration, **envoie-lui cette vidéo** : c'est peut-être lui, mon premier client. »
+« Je pars de zéro, et je vais tout montrer ici : comment j'améliore l'application, mes premiers rendez-vous, les refus et, j'espère, le premier « oui ». **Abonne-toi pour suivre l'aventure depuis le premier jour.** Et si tu connais quelqu'un qui a un restaurant à Bamako, **envoie-lui cette vidéo** : c'est peut-être lui, mon premier client. »
 
-**[PLAN]** : Toi face caméra dans un lieu reconnaissable de Bamako → toi au restaurant (le décor de l'histoire) → ton écran d'ordinateur avec du code → BonApp sur un téléphone → retour face caméra pour l'appel à l'action.
+**[PLAN]** : Toi face caméra dans une rue de Bamako → gros plan sur un menu papier abîmé → toi devant ton ordinateur en train de coder → le prototype BonApp sur un téléphone → retour face caméra, déterminé, pour l'appel à l'action.
 
-**Légende :** Pourquoi un développeur malien s'attaque aux restaurants 🍽️🇲🇱 Épisode 1 de l'aventure BonApp #developpeur #mali #bamako #startup #BonApp #restaurantmali
+**Légende :** 21 ans, développeur à Bamako, 0 client. Jour 1 de l'aventure BonApp 🚀 Suis-moi jusqu'à mon premier restaurant 🍽️🇲🇱 #developpeur #mali #bamako #startup #BonApp #restaurantmali #jeuneentrepreneur
 
 ---
 

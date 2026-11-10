@@ -1,4 +1,4 @@
-# 10 scripts TikTok BonApp, par BIM
+# Scripts TikTok BonApp, par BIM (présentation + 10 scripts)
 
 > **Format :** vidéos de 45 à 60 secondes, face caméra, filmées au téléphone.
 > **Structure de chaque script :** Accroche (0 à 3 s) → Présentation de BIM → Problème → Relance → Solution BonApp → Ce que ça change → Relance → Appel à l'action.
@@ -15,6 +15,44 @@
 - **Les maquis, grilladeries, dibiteries, fast-foods, cafés, pâtisseries**
 - **Les hôtels-restaurants et les traiteurs**
 - **Ceux qui veulent ouvrir un restaurant** et partir sur de bonnes bases dès le premier jour
+
+---
+
+## SCRIPT 0 : Présentation, « Qui je suis et pourquoi je m'attaque à la restauration » (à publier EN PREMIER)
+
+> Les passages entre **[crochets]** sont à remplacer par ta vraie histoire. Plus ils sont précis (un lieu, un chiffre, un moment), plus la vidéo sera crédible.
+
+**[ÉCRAN] : « Je suis développeur au Mali et j'ai choisi de m'attaquer aux restaurants. Voici pourquoi 🇲🇱 »**
+
+**ACCROCHE (0 à 3 s)**
+« J'aurais pu créer une application pour n'importe quel secteur. J'ai choisi les restaurants. Et ce n'est pas un hasard. »
+
+**PRÉSENTATION**
+« Je m'appelle BIM, de mon vrai nom Bocar Ibrahim Touré. Je suis développeur, basé au Mali. Je crée des applications web et des outils pour aider les entreprises à mieux s'organiser. [J'ai appris à coder en/à …, depuis X ans.] »
+
+**LE DÉCLIC (l'histoire)**
+« Un jour, [j'étais dans un restaurant à … / j'aidais un proche qui tient un restaurant]. [Raconte la scène : la commande oubliée, le patron qui compte la caisse le soir avec un cahier, l'argent qui manque, le stock qui disparaît…] Et là, je me suis dit : "Ce n'est pas normal qu'en 2026, des gens qui travaillent aussi dur n'aient aucun outil pour les aider." »
+
+**RELANCE**
+« Mais la vraie question, c'est : pourquoi la restauration, et pas un autre secteur ? J'ai trois raisons. »
+
+**POURQUOI LA RESTAURATION**
+« **Un** : tout le monde mange, tous les jours. Il y a des restaurants, des maquis et des grilladeries dans chaque quartier, et il en ouvre de nouveaux tout le temps.
+**Deux** : c'est un secteur où l'argent circule chaque jour, mais où presque tout se gère encore à la main : cahiers, calculs de tête, confiance aveugle. Les pertes sont énormes, et personne ne les voit.
+**Trois** : [raison personnelle : un parent restaurateur, un ancien job dans un restaurant, ta passion pour la cuisine…]. »
+
+**RELANCE**
+« Alors j'ai arrêté de me plaindre, et j'ai commencé à construire. »
+
+**LA MISSION**
+« C'est comme ça qu'est né **BonApp** : une application pensée **au Mali, pour les restaurants du Mali**. Pour que chaque patron sache ce qui se passe dans son restaurant, perde moins d'argent et serve mieux ses clients. [Aujourd'hui, j'en suis à : … (prototype, premiers tests, X restaurants contactés).] »
+
+**APPEL À L'ACTION**
+« Sur ce compte, je vais tout montrer : comment je construis l'application, comment je cherche mes premiers clients, les refus et les victoires. **Abonne-toi pour suivre l'aventure depuis le début.** Et si tu connais quelqu'un dans la restauration, **envoie-lui cette vidéo** : c'est peut-être lui, mon premier client. »
+
+**[PLAN]** : Toi face caméra dans un lieu reconnaissable de Bamako → toi au restaurant (le décor de l'histoire) → ton écran d'ordinateur avec du code → BonApp sur un téléphone → retour face caméra pour l'appel à l'action.
+
+**Légende :** Pourquoi un développeur malien s'attaque aux restaurants 🍽️🇲🇱 Épisode 1 de l'aventure BonApp #developpeur #mali #bamako #startup #BonApp #restaurantmali
 
 ---
 

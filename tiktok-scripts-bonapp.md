@@ -4,7 +4,7 @@
 > **Structure de chaque script :** Accroche (0 à 3 s) → Présentation de BIM → Problème → Relance → Solution BonApp → Ce que ça change → Relance → Appel à l'action.
 > **[ÉCRAN]** = texte à afficher à l'écran · **[PLAN]** = ce qu'on voit à l'image
 >
-> ⚠️ Les fonctionnalités citées (commandes sur téléphone, envoi en cuisine, stock, caisse, suivi à distance, rapports, menu QR, suivi des serveurs) sont celles qu'on trouve d'habitude dans un logiciel de gestion de restaurant. **Enlève ou remplace celles que BonApp n'a pas encore.**
+> ✅ **Toutes les fonctions citées sont déjà dans le prototype de BonApp** : menu digital avec QR code, prise de commande et envoi en cuisine, caisse et suivi des ventes, suivi à distance, gestion du stock, rapports, accès par serveur et gestion des clients.
 
 ---
 

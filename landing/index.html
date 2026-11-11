@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#D62828" />
+  <title>BIMDIGITAL — Mémoire, vidéo pub en bambara, visuels Black Friday</title>
+  <meta name="description" content="BIMDIGITAL à Bamako : mise en forme de mémoire dès 15 000 F, vidéo pub IA en bambara dès 20 000 F, pack Black Friday 25 000 F. Commande sur WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --red: #D62828;
+      --red-dark: #A91E1E;
+      --cream: #FFF3E0;
+      --ink: #1F1A17;
+      --muted: #5E544D;
+      --card: #FFFFFF;
+      --line: #F1DCC0;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--ink);
+      background: var(--cream);
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      padding-bottom: calc(88px + env(safe-area-inset-bottom));
+    }
+    h1, h2, h3, .brand, .price {
+      font-family: "League Spartan", "Poppins", sans-serif;
+      line-height: 1.05;
+      margin: 0;
+    }
+    a { color: inherit; }
+    .wrap { max-width: 520px; margin: 0 auto; padding: 0 20px; }
+
+    /* En-tête */
+    header {
+      background: var(--red);
+      color: #fff;
+      padding: calc(14px + env(safe-area-inset-top)) 0 14px;
+    }
+    header .wrap { display: flex; align-items: center; justify-content: space-between; }
+    .brand { font-size: 1.5rem; font-weight: 800; letter-spacing: 0.02em; }
+    .brand span { opacity: 0.85; font-weight: 600; }
+    .tiktok { font-size: 0.85rem; font-weight: 500; text-decoration: none; opacity: 0.95; }
+
+    /* Accroche */
+    .hero { background: var(--red); color: #fff; padding: 18px 0 40px; border-radius: 0 0 28px 28px; }
+    .hero h1 { font-size: 2.35rem; font-weight: 800; }
+    .hero p { margin: 14px 0 22px; font-size: 1rem; opacity: 0.95; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+    .tags span {
+      background: rgba(255,255,255,0.16);
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 6px 12px; border-radius: 999px; font-size: 0.82rem; font-weight: 500;
+    }
+
+    /* Boutons */
+    .btn {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      width: 100%; min-height: 52px; padding: 14px 18px;
+      border: 0; border-radius: 14px;
+      font: 600 1rem "Poppins", sans-serif; text-decoration: none;
+      cursor: pointer; user-select: none;
+      transition: transform 120ms ease-out, background-color 150ms ease;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn svg { width: 22px; height: 22px; flex-shrink: 0; }
+    .btn-red { background: var(--red); color: #fff; }
+    .btn-white { background: #fff; color: var(--red); }
+    @media (hover: hover) {
+      .btn-red:hover { background: var(--red-dark); }
+    }
+    .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+    /* Sections */
+    section { padding: 36px 0 8px; }
+    .kicker { color: var(--red); font-weight: 600; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 6px; }
+    h2 { font-size: 1.85rem; font-weight: 800; margin-bottom: 18px; }
+
+    /* Cartes offres */
+    .offer {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 20px 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 6px 20px rgba(214, 40, 40, 0.06);
+      position: relative;
+    }
+    .offer .num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 34px; height: 34px; border-radius: 10px;
+      background: var(--cream); color: var(--red);
+      font: 800 1.1rem "League Spartan", sans-serif; margin-bottom: 12px;
+    }
+    .offer h3 { font-size: 1.45rem; font-weight: 700; }
+    .offer .for { color: var(--muted); font-size: 0.92rem; margin: 6px 0 16px; }
+    .badge {
+      position: absolute; top: 18px; right: 18px;
+      background: var(--ink); color: #fff;
+      font-size: 0.72rem; font-weight: 600; padding: 5px 10px; border-radius: 999px;
+    }
+    .tiers { display: grid; gap: 10px; margin-bottom: 16px; }
+    .tier {
+      border: 1px solid var(--line); border-radius: 14px; padding: 14px;
+      background: #FFFBF5;
+    }
+    .tier-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+    .tier-name { font-weight: 600; }
+    .price { color: var(--red); font-size: 1.55rem; font-weight: 800; white-space: nowrap; }
+    .price small { font-size: 0.85rem; font-weight: 600; }
+    .old { color: var(--muted); text-decoration: line-through; font-size: 0.9rem; margin-left: 4px; }
+    .tier ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 0.9rem; }
+    .tier li { margin: 2px 0; }
+    .delay { display: inline-block; margin-top: 8px; font-size: 0.8rem; font-weight: 600; color: var(--ink); }
+
+    .offer.bf { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .offer.bf .for, .offer.bf .tier ul { color: #E8DCCF; }
+    .offer.bf .tier { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.15); }
+    .offer.bf .old { color: #CDBFB2; }
+    .offer.bf .delay { color: #fff; }
+    .offer.bf .badge { background: var(--red); }
+    .offer.bf .num { background: var(--red); color: #fff; }
+    .countdown { font-size: 0.88rem; margin: 0 0 14px; color: #FFD7A8; font-weight: 500; }
+
+    /* Étapes */
+    .steps { display: grid; gap: 12px; counter-reset: s; }
+    .step {
+      display: flex; gap: 14px; align-items: flex-start;
+      background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px;
+    }
+    .step::before {
+      counter-increment: s; content: counter(s);
+      flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%;
+      background: var(--red); color: #fff;
+      display: grid; place-items: center;
+      font: 800 1rem "League Spartan", sans-serif;
+    }
+    .step b { display: block; }
+    .step span { color: var(--muted); font-size: 0.9rem; }
+    .pay { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+    .pay span { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; font-size: 0.85rem; font-weight: 600; }
+    .pay .om { color: #E86B00; }
+    .pay .moov { color: #0058A8; }
+
+    /* Preuve */
+    .proof {
+      background: var(--card); border-left: 4px solid var(--red);
+      border-radius: 0 14px 14px 0; padding: 16px 18px; font-size: 0.95rem;
+    }
+    .proof b { color: var(--red); }
+
+    /* FAQ */
+    details { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 10px; }
+    summary { padding: 14px 16px; font-weight: 600; cursor: pointer; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; float: right; color: var(--red); font-weight: 700; }
+    details[open] summary::after { content: "–"; }
+    details p { margin: 0; padding: 0 16px 14px; color: var(--muted); font-size: 0.92rem; }
+
+    footer { text-align: center; color: var(--muted); font-size: 0.82rem; padding: 32px 0 16px; }
+
+    /* Barre WhatsApp fixe */
+    .sticky {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+      padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+      background: rgba(255, 243, 224, 0.94);
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      border-top: 1px solid var(--line);
+    }
+    .sticky .btn { max-width: 480px; margin: 0 auto; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .btn { transition: none; }
+      .btn:active { transform: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="brand">BIM<span>DIGITAL</span></div>
+      <a class="tiktok" href="https://www.tiktok.com/@bimtech1" target="_blank" rel="noopener">TikTok @bimtech1</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="wrap">
+      <h1>Ton mémoire, ta pub, tes visuels. Prêts cette semaine.</h1>
+      <p>Mise en forme de mémoire, vidéos pub IA <b>en bambara</b> et visuels Black Friday, à Bamako. Tu commandes sur WhatsApp, tu paies par Orange Money ou Moov Money.</p>
+      <div class="tags">
+        <span>📘 Mémoire dès 15 000 F</span>
+        <span>🎬 Vidéo dès 20 000 F</span>
+        <span>🔥 Black Friday 25 000 F</span>
+      </div>
+      <a class="btn btn-white" data-wa="Bonjour BIM, j'ai vu ta page. Je veux des informations sur tes offres.">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+        Écrire sur WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main class="wrap">
+
+    <section id="offres">
+      <p class="kicker">Les 3 offres</p>
+      <h2>Choisis ce qu'il te faut</h2>
+
+      <!-- Offre 1 -->
+      <article class="offer">
+        <div class="num">1</div>
+        <h3>Pack Soutenance</h3>
+        <p class="for">Pour les étudiants qui soutiennent bientôt. Envoie ton fichier Word, je te rends un mémoire propre.</p>
+        <div class="tiers">
+          <div class="tier">
+            <div class="tier-head"><span class="tier-name">Essentiel</span><span class="price">15 000 <small>F</small></span></div>
+            <ul>
+              <li>Mise en forme aux normes</li>
+              <li>Sommaire automatique, pagination, tableaux</li>
+              <li>Bibliographie propre + PDF prêt à imprimer</li>
+            </ul>
+            <span class="delay">⏱ Livré en 48 h</span>
+          </div>
+          <div class="tier">
+            <div class="tier-head"><span class="tier-name">Complet</span><span class="price">25 000 <small>F</small></span></div>
+            <ul>
+              <li>Tout l'Essentiel</li>
+              <li>Diaporama de soutenance (12 à 15 diapos)</li>
+              <li>Liste des questions probables du jury</li>
+            </ul>
+            <span class="delay">⏱ Livré en 72 h</span>
+          </div>
+        </div>
+        <a class="btn btn-red" data-wa="Bonjour BIM, je veux le Pack Soutenance. Ma soutenance est prévue le : ">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+          Commander mon pack
+        </a>
+      </article>
+
+      <!-- Offre 2 -->
+      <article class="offer">
+        <div class="num">2</div>
+        <span class="badge">En bambara</span>
+        <h3>Vidéo pub IA</h3>
+        <p class="for">Pour les boutiques et commerçants. Une pub qui parle à tes clients, pour TikTok et le statut WhatsApp.</p>
+        <div class="tiers">
+          <div class="tier">
+            <div class="tier-head"><span class="tier-name">Standard</span><span class="price">20 000 <small>F</small></span></div>
+            <ul>
+              <li>1 vidéo de 30 secondes</li>
+              <li>Voix off en bambara + sous-titres</li>
+              <li>Format TikTok et statut WhatsApp</li>
+            </ul>
+            <span class="delay">⏱ Livrée en 48 h</span>
+          </div>
+          <div class="tier">
+            <div class="tier-head"><span class="tier-name">Plus</span><span class="price">25 000 <small>F</small></span></div>
+            <ul>
+              <li>1 vidéo de 45 à 60 secondes</li>
+              <li>+ 1 version courte de 15 s pour le statut</li>
+              <li>+ 1 affiche de ta boutique</li>
+            </ul>
+            <span class="delay">⏱ Livrée en 72 h</span>
+          </div>
+        </div>
+        <a class="btn btn-red" data-wa="Bonjour BIM, je veux une vidéo pub en bambara pour ma boutique. Je vends : ">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+          Commander ma vidéo
+        </a>
+      </article>
+
+      <!-- Offre 3 -->
+      <article class="offer bf">
+        <div class="num">3</div>
+        <span class="badge">6 places</span>
+        <h3>Pack Black Friday</h3>
+        <p class="for">Le Black Friday, c'est le vendredi 27 novembre. Ta boutique doit être prête avant.</p>
+        <p class="countdown" id="countdown">Commandes jusqu'au mardi 24 novembre.</p>
+        <div class="tiers">
+          <div class="tier">
+            <div class="tier-head"><span class="tier-name">Pack 6 visuels</span><span class="price">25 000 <small>F</small><span class="old">50 000 F</span></span></div>
+            <ul>
+              <li>5 visuels promo de tes produits (prix barrés)</li>
+              <li>1 bannière / photo de profil « Black Friday »</li>
+              <li>Formats statut WhatsApp et TikTok</li>
+            </ul>
+            <span class="delay">⏱ Livré le jeudi 26 novembre</span>
+          </div>
+        </div>
+        <a class="btn btn-red" data-wa="Bonjour BIM, je veux réserver le Pack Black Friday pour ma boutique : ">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+          Réserver ma place
+        </a>
+      </article>
+    </section>
+
+    <section>
+      <p class="kicker">Comment ça marche</p>
+      <h2>3 étapes, tout sur WhatsApp</h2>
+      <div class="steps">
+        <div class="step"><div><b>Tu m'écris sur WhatsApp</b><span>Tu me dis ce que tu veux et tu m'envoies ton fichier ou tes photos de produits.</span></div></div>
+        <div class="step"><div><b>Tu paies 50 % d'acompte</b><span>Par Orange Money ou Moov Money. Je commence le travail tout de suite.</span></div></div>
+        <div class="step"><div><b>Tu vois l'aperçu, tu paies le reste</b><span>Tu reçois les fichiers finaux. 2 corrections incluses.</span></div></div>
+      </div>
+      <div class="pay"><span class="om">● Orange Money</span><span class="moov">● Moov Money</span></div>
+    </section>
+
+    <section>
+      <p class="kicker">Déjà fait</p>
+      <h2>Ils m'ont fait confiance</h2>
+      <div class="proof">
+        <b>ORAIMO SHOP</b> — série de vidéos pub IA en bambara pour leurs produits. Les vidéos sont à voir sur mon TikTok <a href="https://www.tiktok.com/@bimtech1" target="_blank" rel="noopener"><b>@bimtech1</b></a>.
+      </div>
+    </section>
+
+    <section>
+      <p class="kicker">Questions</p>
+      <h2>Tu te demandes…</h2>
+      <details><summary>Je n'ai pas encore fini mon mémoire, c'est possible ?</summary><p>Oui. Envoie ce que tu as : je prépare la mise en forme et j'ajoute les dernières parties quand tu les envoies.</p></details>
+      <details><summary>Je ne parle pas bien bambara dans la vidéo, c'est grave ?</summary><p>Non. La voix off est faite par moi avec l'IA. Tu m'envoies juste tes produits, tes prix et ton adresse.</p></details>
+      <details><summary>Pourquoi un acompte ?</summary><p>Il réserve ta place. Tu paies le reste seulement après avoir vu l'aperçu de ton travail.</p></details>
+      <details><summary>Tu es où ?</summary><p>À Bamako. Tout se fait sur WhatsApp, pas besoin de se déplacer.</p></details>
+    </section>
+
+    <footer>
+      © 2026 BIMDIGITAL · Bamako, Mali · TikTok <a href="https://www.tiktok.com/@bimtech1" target="_blank" rel="noopener">@bimtech1</a>
+    </footer>
+  </main>
+
+  <div class="sticky">
+    <a class="btn btn-red" data-wa="Bonjour BIM, je veux commander. Mon besoin : ">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+      Commander sur WhatsApp
+    </a>
+  </div>
+
+  <script>
+    // ⚠️ REMPLACE PAR TON NUMÉRO WHATSAPP : indicatif 223 + 8 chiffres, sans espace ni "+".
+    var WHATSAPP = "22300000000";
+
+    document.querySelectorAll("[data-wa]").forEach(function (a) {
+      a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(a.getAttribute("data-wa"));
+      a.target = "_blank";
+      a.rel = "noopener";
+    });
+
+    // Compte à rebours Black Friday (clôture des commandes : mardi 24 nov. 2026, 20 h, heure de Bamako = GMT)
+    (function () {
+      var el = document.getElementById("countdown");
+      var end = Date.UTC(2026, 10, 24, 20, 0, 0);
+      var days = Math.ceil((end - Date.now()) / 86400000);
+      if (days > 1) el.textContent = "⏳ Plus que " + days + " jours pour commander (jusqu'au mardi 24 novembre).";
+      else if (days === 1) el.textContent = "⏳ Dernier jour pour commander : ce soir 20 h !";
+      else el.textContent = "Commandes fermées. Visuel à l'unité : 10 000 F, livré en 3 h.";
+    })();
+  </script>
+</body>
+</html>

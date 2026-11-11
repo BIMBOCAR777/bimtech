@@ -1,0 +1,6 @@
+# Netlify publie la racine du dépôt (site statique, pas d'étape de build).
+# Ce fichier remplace le réglage « Publish directory » du tableau de bord,
+# qui pointait vers le fichier index.html au lieu d'un dossier.
+[build]
+  publish = "."
+  command = ""
